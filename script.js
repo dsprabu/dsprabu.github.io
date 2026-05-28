@@ -1,3 +1,7 @@
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
 document.addEventListener('contextmenu', function(e){
   e.preventDefault();
   alert('Content protection enabled.');
